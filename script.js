@@ -40,7 +40,9 @@ switchLanguage();
 // по клику на кнопку download пользователя перенаправляет на url,
 // который будет прописан в одном из параметров лендинга в адресной строке
 function redirect() {
+  if (searchParams.has("url")) {
     location.href = searchParams.get("url");
+  }
 }
 
 // автоматический редирект через 10 секунд на страничку из параметра url
