@@ -1,6 +1,6 @@
 // при загрузке страницы выдается js alert с текстом
 window.onload = function () {
-  alert("Set 'lng' and 'url' attributes in the URL above to change the language of the page and to be redirected to the website.");
+  alert("Set 'lng' (eng/ru) and 'url' (https://) attributes in the URL above to change the language of the page and to be redirected to the website.");
 };
 
 // добавлено 2 перевода страницы, перевод осуществляется по параметру,
